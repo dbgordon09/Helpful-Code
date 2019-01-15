@@ -1,9 +1,16 @@
+package com.avochoc.liquimoly.utilities
+
 import android.content.Context
 import com.tsongkha.spinnerdatepicker.DatePickerDialog
 import com.tsongkha.spinnerdatepicker.SpinnerDatePickerDialogBuilder
 import java.text.SimpleDateFormat
 import java.util.*
 
+/** @Docs
+ * Requires SpinnerDatePicker library in order to run correctly.
+ *  In order to make of this class please add implementation 'com.github.drawers:SpinnerDatePicker:1.0.6'
+ *  to your Gradle dependencies
+ */
 class DatePicker(startYearDelta: Int, minYearDelta: Int, maxYearDelta: Int, context: Context, listener: OnDatePickerListener ) {
     private val calendar = Calendar.getInstance()
     private var dialog: DatePickerDialog

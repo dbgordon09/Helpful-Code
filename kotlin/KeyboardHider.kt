@@ -1,3 +1,5 @@
+package com.avochoc.liquimoly.utilities
+
 import android.app.Activity
 import android.view.View
 import android.view.inputmethod.InputMethodManager
